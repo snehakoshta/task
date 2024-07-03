@@ -1,0 +1,223 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+.navbar:hover{
+    background: linear-gradient(black,pink);
+    color:#0d0d0d
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    padding: 0 1rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.toggle-button {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .toggle-button {
+        display: block;
+    }
+    /* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+.body:hover{
+    background: linear-gradient(white ,red);
+}
+
+
+}
+
+</style>
+</head>
+<body style="background: -webkit-radial-gradient(circle ,rgb(228, 7, 7),rgb(14, 14, 14));height: 1800px; border-radius: 500px;">
+    <nav class="navbar">
+        <div class="brand-title">Portfolio</div>
+        <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">☰</a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="file:///D:/projects/porfolio.html#">Home</a></li>
+                <li><a href="file:///D:/projects/projects.html#">project</a></li>
+                <li><a href="file:///D:/projects/porfolio.html#">skills</a></li>
+                <li><a href="file:///D:/projects/contact.html#">Contact</a></li>
+                <li><a href="file:///D:/projects/certification.html#">certification</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+    <div class="image">
+        <img src="C:\Users\HP\OneDrive\Documents\my .jpg" width="300px" height="300px" style="border-radius: 200px; margin-left: 550px; margin-top: 50px; box-shadow: 10cqmax;border-width: 20px; border-style: groove; border-color: aqua;">
+        <div class="text">
+            <h1 style="margin-left: 600px;">Hello,It's Me</h1>
+            <h2 style="margin-left: 600px; color: rgb(21, 138, 138);">I'm Sneha Koshta</h2>
+            <p style="margin-left: 400px; color: #fff;">I'm web developer with experiecnce 1 years because i have complete the 3 internship in web developer.<br>i have knowledge about different programming languages like java,python,HTML,CSS and javascript,DSA </p>
+            <div class="logos">
+                
+                <img src="https://th.bing.com/th/id/R.18ba0e411b1586feb65e97d7deb45b5d?rik=OCbvCEPQbXn47g&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fwhatsapp-png-whatsapp-logo-png-1000.png&ehk=7BIVvksu2ccZPkUkoiU9T8Gx7a6xEIJ61o%2fGGN12nNM%3d&risl=&pid=ImgRaw&r=0" width="60px" height="50px" style="border-radius: 70px; border-color: aqua; border-width: 5px; border-style: solid; border-color: rgb(11, 109, 109);margin-left: 550px;">
+                <img src="https://clipartcraft.com/images/facebook-logo-png-format-6.png" width="50px" height="50px" style="border-radius: 70px; border-color: aqua; border-width: 5px; border-style: solid; border-color: rgb(11, 109, 109);margin-left:100px">
+                <img src="https://www.vhv.rs/file/max/9/98181_linkedin-transparent-png.png" width="50px" height="50px" style="border-radius: 70px; border-color: aqua; border-width: 5px; border-style: solid; border-color: rgb(11, 109, 109); margin-left:100px ;">
+               
+                <br><br>
+                        <button style="width: 150px; height: 50px; border-radius: 30px; background: -webkit-radial-gradient(circle , white ,rgb(43, 164, 204));margin-left: 650px;transition: .3s;">Hire Me</button>
+                    </div>
+                   
+                   
+
+            </div>
+        </div>
+    
+    </header><br>
+    <div class="image2" style=" background: -webkit-image-set();">
+   
+        <h1 style="margin-left: 650px; background: #fff; margin-left: 0; text-align: center; color: orange; border-color: rgb(236, 239, 238); border-width: 5px;border-style: solid; text-shadow: 2px 2px; border-radius: 100px;">About Me</h1>
+       
+    
+        <h2 style="margin-left: 600px;forced-color-adjust: pink green 10%; ">WEB DEVELOPER</h2>
+        <p style="margin-left: 550px; text-shadow: 1px 1px; color: rgb(20, 20, 20);"> I am a web developer.<br>    I am a student at b.tech.I have develop the<r></r> many website <br>and i will create the many projects in different languages.<br>I will also interested in this field.i have knowledge about the web developer program.</p>
+        <br>
+        <br>
+       <div class="logos">
+        <h1 style="text-align: center;background-color: #fff; border-radius: 100px;">Skills</h1>
+       <marquee>
+        <img src="https://static.vecteezy.com/system/resources/previews/022/100/214/original/java-logo-transparent-free-png.png" width="200px" height="200px" style="margin-left: 0px;margin-top: 10px;">
+        <img src="https://www.pngmart.com/files/7/Python-Transparent-PNG.png" width="200px" height="160px" style="margin-left: 50px;">
+        <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png" width="200px" height="160px" style="margin-left: 50px;">
+        <img src="https://www.vlrtraining.in/wp-content/uploads/2020/10/logo-data-structure-768x876.png" width="200px" height="200px" style="margin-left: 50px;">
+        <img src="https://png.pngtree.com/png-clipart/20230111/original/pngtree-c-icon-metal-design-png-image_8902282.png" width="200px" height="200px" style="margin-left: 50px;">
+        <img src="https://www.freeiconspng.com/uploads/c--logo-icon-6.png" width="200px" height="200px" style="margin-left: 50px;">
+    </marquee>
+    <br>
+    <br><br>
+    <div class="process">
+
+
+        <label for="file" style="color: #fff; font-size: x-large;margin-left: 300px;">C++</label>
+
+       <progress id="file" value="52" max="50" style="width: 300px;" size="256"> 100% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 590px;">100%</label>
+       <br>
+       <br>
+        <label for="file" style="color: #fff; font-size: x-large;margin-left: 300px;">Java</label>
+
+       <progress id="file" value="49" max="50" style="width: 300px;" size="256"> 82% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 590px;">97%</label>
+       <br>
+       <br>
+       <label for="file" style="color: #fff; font-size: x-large;margin-left: 300px;">C</label>
+
+       <progress id="file" value="42" max="50" style="width: 300px;" size="256"> 82% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 590px;">88%</label>
+       <br>
+       <br>
+       <label for="file" style="color: #fff; font-size: x-large;margin-left: 300px;">Python</label>
+
+       <progress id="file" value="42" max="50" style="width: 300px;" size="256"> 82% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 590px;">88%</label>
+       <br>
+       <br>
+       <label for="file" style="color: #fff; font-size: x-large;margin-left: 250px;">HTML,CSS</label>
+
+       <progress id="file" value="42" max="50" style="width: 300px;" size="256"> 82% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 590px;">89%</label>
+       <br>
+       <br>
+       <label for="file" style="color: #fff; font-size: x-large;margin-left: 300px;">DSA</label>
+
+       <progress id="file" value="22" max="50" style="width: 300px;" size="256"> 82% </progress><br>
+       <label for="file" style="color: #fff; margin-left: 500px;">78%</label>
+    </div>
+       </div>
+       </div>
+       
+        
+    
+   
+
+    <script>
+        function toggleMenu() {
+            var navbarLinks = document.querySelector('.navbar-links');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
+
+
+</body></html>
